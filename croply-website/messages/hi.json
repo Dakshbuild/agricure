@@ -1,0 +1,16 @@
+{
+  "HomePage": {
+    "heroTag": "स्मार्ट इंडिया हैकथॉन 2026",
+    "heroTitle1": "एआई संचालित",
+    "heroTitle2": "स्मार्ट खेती",
+    "heroDesc": "बीमारियों के फैलने से पहले उनका पता लगाएं। एआई विशेषज्ञों से चैट करें। सैटेलाइट स्वास्थ्य की निगरानी करें। पानी बचाएं। फसलों की रक्षा करें। मुनाफा बढ़ाएं।"
+  },
+  "Chatbot": {
+    "welcome": "Hello! I am your CroPly AI Assistant. You can ask me about crop diseases, farming techniques, or weather advice.",
+    "title": "AI Agronomist",
+    "online": "Online and ready to help",
+    "placeholder": "Ask about diseases, weather, or farming tips...",
+    "error": "Failed to connect to the AI server."
+  },
+  "DiseaseDetection": {}
+}

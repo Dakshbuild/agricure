@@ -1,0 +1,10 @@
+{
+  "Chatbot": {
+    "welcome": "Hello! I am your CroPly AI Assistant. You can ask me about crop diseases, farming techniques, or weather advice.",
+    "title": "AI Agronomist",
+    "online": "Online and ready to help",
+    "placeholder": "Ask about diseases, weather, or farming tips...",
+    "error": "Failed to connect to the AI server."
+  },
+  "DiseaseDetection": {}
+}

@@ -1,0 +1,22 @@
+Step 1: Create the GitHub Repository
+1. Go to https://github.com and log in (or create a free account).
+2. Click the "+" icon in the top right corner and select "New repository".
+3. Name your repository "agricure".
+4. Select "Private" (so no one else can see your code).
+5. Click the green "Create repository" button.
+
+Step 2: Upload Your Code
+1. On the next screen, look for the small link that says "uploading an existing file" and click it.
+2. Open your computer's File Explorer and go to this folder: 
+   C:\Users\Hp\OneDrive\Desktop\test\agricure
+3. Select the files and folders inside and drag them into the GitHub page.
+   CRITICAL WARNING: Do NOT upload the "node_modules" or ".next" folders! They are massive and will crash your upload. Vercel will generate these automatically later.
+4. Once the files finish uploading, scroll down and click the green "Commit changes" button.
+
+Step 3: Deploy to Vercel
+1. Go to https://vercel.com and sign up/log in using the "Continue with GitHub" option.
+2. Click the black "Add New..." button and select "Project".
+3. You will see your new "agricure" repository listed there. Click the "Import" button next to it.
+4. Leave all settings exactly as they are and click the big "Deploy" button.
+
+Vercel will now build your site. In about 2 minutes, you will be given a permanent, live URL that you can share with your sir. It will stay online for as long as you need!
