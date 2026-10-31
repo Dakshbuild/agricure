@@ -37,7 +37,7 @@ export default function Navbar() {
   return (
     <nav
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        scrolled ? "bg-white/80 backdrop-blur-md shadow-sm py-1 border-b border-gray-100" : "bg-transparent py-1.5"
+        scrolled ? "bg-background/80 dark:bg-background/60 backdrop-blur-md shadow-sm py-1 border-b border-gray-200 dark:border-white/10" : "bg-transparent py-1.5"
       }`}
     >
       <div className="container mx-auto px-6 md:px-12 flex items-center justify-between relative mt-2">
@@ -86,7 +86,7 @@ export default function Navbar() {
                   initial={{ opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
-                  className="absolute right-0 mt-2 w-48 bg-white border border-gray-100 rounded-xl shadow-lg overflow-hidden py-2"
+                  className="absolute right-0 mt-2 w-48 bg-background border border-gray-200 dark:border-white/10 rounded-xl shadow-lg overflow-hidden py-2"
                 >
                   <div className="max-h-60 overflow-y-auto">
                     {languages.map((lang) => (
@@ -131,7 +131,7 @@ export default function Navbar() {
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
-            className="absolute top-full left-0 w-full bg-white border-t border-gray-100 p-6 flex flex-col gap-4 shadow-xl lg:hidden"
+            className="absolute top-full left-0 w-full bg-background border-t border-gray-200 dark:border-white/10 p-6 flex flex-col gap-4 shadow-xl lg:hidden"
           >
             {navLinks.map((link) => (
                <Link
